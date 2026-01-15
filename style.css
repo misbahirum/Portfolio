@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0b0b0f;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #6a0dad, #120016);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/*.hero-links a {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  border: 1px solid #c77dff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}*/
+
+/* SECTIONS */
+.section {
+  padding: 70px 10%;
+}
+
+.section h2 {
+  color: #c77dff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.dark {
+  background: #111318;
+}
+
+/* CARDS */
+.card {
+  background: #410b74;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 4px solid #ededf5;
+  border-radius: 6px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  background: linear-gradient(135deg, #6a0dad, #120016);
+  color: #eedbdb;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f0616;
+  font-size: 14px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: 1px solid #c77dff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn i {
+  font-size: 18px;
+  color: #c77dff;
+}
+
+.btn:hover {
+  background: #c77dff;
+  color: #0b0b0f;
+}
+
+.btn:hover i {
+  color: #0b0b0f;
+}
+.hero-links {
+  margin-top: 25px;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 1px solid #c77dff;
+  color: #c77dff;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.icon-btn:hover {
+  background: #c77dff;
+  color: #0b0b0f;
+  transform: translateY(-4px);
+}
